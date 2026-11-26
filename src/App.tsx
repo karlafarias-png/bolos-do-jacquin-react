@@ -18,7 +18,7 @@ export default function App(){
                 <Route path="/" element={<Home/>} />
                 <Route path="/produtos" element={<ListaProdutos/>} />
                 <Route path="/login" element={<Login/>} />
-                <Route path="/adm" element={<AdmProdutos/>} />
+                <Route path="/admProdutos" element={<AdmProdutos/>} />
                 <Route path="*" 
                 element={<img className="container-notfound" src="https://www.scopycode.com/includes/images/blog/404_error_page_not_found.gif" alt="Imagem de não encontrado" />} />
             </Routes>
